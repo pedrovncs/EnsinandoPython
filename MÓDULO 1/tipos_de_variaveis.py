@@ -24,7 +24,7 @@ print(f'frase com título: {frase.title()}')
 
 print(f'frase sem quebra de linha: {frase.strip()}')
 
-print(f'frase trocada: {frase.replace("python", "java")}')
+print(f'frase trocada: {frase.replace("bliss", "java")}')
 
 # funçoes uteis com string
 tamanho_da_frase = len(frase)

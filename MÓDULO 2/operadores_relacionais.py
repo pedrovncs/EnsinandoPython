@@ -1,11 +1,8 @@
 from random import randint
 
 nome = "pedro"
-
-#numero aleatorio de 1 a 3
-num_aleatorio = randint(1, 3)
-
 num_especifico = 3
+num_aleatorio = randint(1, 3)#numero aleatorio de 1 a 3
 
 # operadores relacionais sempre retornam true ou false
 
@@ -44,4 +41,9 @@ print(f'comprimento do nome é menor ou igual 5?: {len(nome) <= 5}' )
 print(f'comprimento do nome é igual a 5?: {len(nome) == 5}' )
 print(f'comprimento do nome é diferente que 5?: {len(nome) != 5}' )
 
+# case sensitive
+filme = "The Goodfellas"
+filme_input_usuario = "the Goodfellas"
 
+filme == filme_input_usuario  # False
+filme == filme_input_usuario.lower() # True 
