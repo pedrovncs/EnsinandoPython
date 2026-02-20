@@ -7,6 +7,9 @@ quinta
 sexta
 sábado
 domingo""")
+
+
+
 day = input("insira o dia da semana: ")
 
 match day:
@@ -16,17 +19,17 @@ match day:
         print("quase fim de semana")
     case "sábado" | "domingo":
         print("fim de semana")
-    case _:
+    case "terça" | "quarta" | "quinta":
         print("dia normal")
-        
-        
-""" idade = int(input("qual sua idade: "))
+    case _:
+        print("insira um dia valido")
+    
+""" #idade = int(input("qual sua idade: "))
 
 # não é possível usar comparações diretas
-match idade:
-    case idade > 120:
+""" """ match idade:
+    case 1:
         print("muito velho")
-    case idade >= 18:
+    case "eee":
         print("adulto")
-
- """
+"""

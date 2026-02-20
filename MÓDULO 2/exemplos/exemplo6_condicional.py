@@ -5,6 +5,5 @@ if nota >= 90:
 
 if nota >= 60:
     print("você está aprovado")
-
-if nota < 60:
+else:
     print("você não passou na prova")

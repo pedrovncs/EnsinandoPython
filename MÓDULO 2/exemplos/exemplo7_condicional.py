@@ -1,6 +1,7 @@
 idade = int(input("digite a idade: "))
 
 print("\n** verificacao de idade para chat de voz no roblox... **\n")
+
 if idade >= 14:
     print("idade verificada ✅")
     has_id = input("voce tem rg (sim / não): ")

@@ -1,6 +1,6 @@
 idade = int(input("digite idade: "))
 
-print("verificando se a pessoa é maior de idade... (essa mensagem sempre é exibida)")
+print("verificando se a pessoa é maior de idade... (essa mensagem sempre é exibida)") #500
 
 if idade > 120:
     print("voce me parece velho demais...")

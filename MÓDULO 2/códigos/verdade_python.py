@@ -31,8 +31,9 @@ string_nao_vazia = "python"
 numero_positivo_int = 42
 numero_negativo_float = -3.14
 lista_com_elementos = [1, 2, 3]
+print(lista_com_elementos)
 dicionario_com_elementos = {"chave": "valor"}
-conjunto_com_elementos = {1, 2, 3}
+conjunto_com_elementos = {1,2,3}
 tupla_com_elementos = (1, 2, 3)
 
 print("\nvalores considerados True em Python:\n")
